@@ -9,7 +9,7 @@ type ProjectCardProps = {
   title: string;
   description: string;
   gitlink: string;
-  demolink?: string;
+  demolink?: string | null;
 };
 
 import { Avatar, AvatarImage, AvatarFallback } from "../ui/avatar";

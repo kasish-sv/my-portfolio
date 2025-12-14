@@ -104,6 +104,7 @@ const projects = [
     description:
       "Web & Mobile application connecting hotels with NGOs for food redistribution",
     gitlink: "https://github.com/kasish-sv/after-hours",
+    demolink: null,
   },
   {
     imageSrc: "/logos/React-Logo.png",
@@ -112,6 +113,7 @@ const projects = [
     description:
       "Played around with React.js to create small projects, there is nothing much but this really helped me learn React",
     gitlink: "https://github.com/kasish-sv/react-play",
+    demolink: null,
   },
 ];
 
