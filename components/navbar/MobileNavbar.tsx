@@ -10,9 +10,10 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { redirect } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 export function MobileNavbar() {
+  const router = useRouter();
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -22,17 +23,19 @@ export function MobileNavbar() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => redirect("/")}>Home</DropdownMenuItem>
-        <DropdownMenuItem onClick={() => redirect("/skills")}>
+        <DropdownMenuItem onSelect={() => router.push("/")}>
+          Home
+        </DropdownMenuItem>
+        <DropdownMenuItem onSelect={() => router.push("/skills")}>
           Skills
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => redirect("/projects")}>
+        <DropdownMenuItem onSelect={() => router.push("/projects")}>
           Projects
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => redirect("/experience")}>
+        <DropdownMenuItem onSelect={() => router.push("/experience")}>
           Experience
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => redirect("/contact")}>
+        <DropdownMenuItem onSelect={() => router.push("/contact")}>
           Contact
         </DropdownMenuItem>
       </DropdownMenuContent>
