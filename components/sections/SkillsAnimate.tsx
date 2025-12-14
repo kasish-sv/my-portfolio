@@ -17,7 +17,7 @@ export default function SkillsAnimate() {
         staggerChildren: 0.2,
         duration: 1, // animation speed
       }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.2 }} // trigger when 20% of the component is visible
     >
       <div className="flex flex-col bg-linear-to-r from-black via-gray-800 to-zinc-400 rounded-r-2xl">
         <div className="flex items-center justify-center">
