@@ -53,11 +53,13 @@ export default function ExperienceCard({
           <ExperienceDetail detail={detail} />
         </ItemActions>
         <ItemFooter className="flex gap-2 justify-baseline">
-          {footer?.map((tech, index) => (
-            <Badge key={index} variant="secondary">
-              {tech}
-            </Badge>
-          ))}
+          <div className="flex flex-wrap gap-2">
+            {footer?.map((tech, index) => (
+              <Badge key={index} variant="secondary">
+                {tech}
+              </Badge>
+            ))}
+          </div>
         </ItemFooter>
       </Item>
     </div>
