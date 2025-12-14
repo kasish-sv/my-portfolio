@@ -29,7 +29,7 @@ export default function SkillCard({
   rating,
 }: SkillCardProps) {
   return (
-    <Card className="flex w-full max-w-xl flex-col gap-6 dark:bg-zinc-800">
+    <Card className="flex justify-between w-full max-w-xl flex-col gap-6 dark:bg-zinc-800">
       <Image
         src={imageSrc}
         alt={imageAlt}

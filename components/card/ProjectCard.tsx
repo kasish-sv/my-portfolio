@@ -31,7 +31,7 @@ export default function ProjectCard({
   demolink,
 }: ProjectCardProps) {
   return (
-    <Card className="flex w-full max-w-xl flex-col dark:bg-zinc-800">
+    <Card className="flex justify-between w-full max-w-xl flex-col dark:bg-zinc-800">
       <Image
         src={imageSrc}
         alt={imageAlt}

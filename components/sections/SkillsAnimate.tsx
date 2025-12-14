@@ -26,7 +26,7 @@ export default function SkillsAnimate() {
           <div className="w-1/4 border-t border-gray-400"></div>
         </div>
         <div className="grid gap-2 p-4 grid-cols-2 lg:grid-cols-3 justify-center justify-items-center">
-          {skills.slice(0, 3).map((skill, index) => (
+          {skills.slice(0, 6).map((skill, index) => (
             <SkillCard
               key={index}
               imageSrc={skill.imageSrc}
