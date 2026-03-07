@@ -98,6 +98,24 @@ const skills = [
 
 const projects = [
   {
+    imageSrc: "/logos/Give-Logo.png",
+    imageAlt: "Give",
+    title: "Give",
+    description:
+      "Modern Web application that connects hotels with NGOs to redistribute surplus food, reducing waste and supporting hunger-relief efforts with secure authentication, geolocation-based matching, and automated notifications to streamline food donation workflows ",
+    gitlink: "https://github.com/kasish-sv/Give",
+    demolink: "https://give-beryl.vercel.app/",
+  },
+  {
+    imageSrc: "/logos/Tweeny-Logo.png",
+    imageAlt: "Tweeny",
+    title: "Tweeny",
+    description:
+      "Live project under development leveraging AI-driven recommendation systems to match housemaids with homeowners streamlining domestic help hiring and improving trust and efficiency",
+    gitlink: "https://github.com/kasish-sv/tweeny",
+    demolink: null,
+  },
+  {
     imageSrc: "/logos/After_Hours-Logo.png",
     imageAlt: "After Hours",
     title: "After Hours",
