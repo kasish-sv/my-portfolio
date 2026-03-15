@@ -102,7 +102,7 @@ const projects = [
     imageAlt: "Give",
     title: "Give",
     description:
-      "Modern Web application that connects hotels with NGOs to redistribute surplus food, reducing waste and supporting hunger-relief efforts with secure authentication, geolocation-based matching, and automated notifications to streamline food donation workflows ",
+      "Give is a modern web application that connects the willing with the needy to redistribute surplus food, medicine, books, and clothing. It aims to reduce waste and channel resources to communities in need. The platform ensures secure authentication, geolocation-based suggestions and automated notifications to streamline donation workflows",
     gitlink: "https://github.com/kasish-sv/Give",
     demolink: "https://give-beryl.vercel.app/",
   },
